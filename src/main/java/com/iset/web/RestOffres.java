@@ -53,9 +53,7 @@ public class RestOffres {
 		current.setNbpostes(updated.getNbpostes());
 		current.setPays(updated.getPays());
 		offreRepository.save(current);
-		
 		return current;
-		//return ResponseEntity.ok(updateoffre);
 		
 	}
 	
